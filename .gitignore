@@ -1,0 +1,99 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+server/public/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+/var/log/pm2/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output
+
+# TypeScript
+*.tsbuildinfo
+vite.config.ts.*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+.tmp/
+
+# PM2
+ecosystem.config.js
+ecosystem.config.cjs
+*.tar.gz
+
+# Testing
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Anchor/Solana
+.anchor/
+target/
+test-ledger/
+**/*.rs.bk
+artifacts/
+encrypted-ixs/arcis_temp_target
+encrypted-ixs/src/main.rs
+
+# Yarn
+.yarn/
+.yarnrc.yml
+
+package-lock.json
+
+caidanw.github.io-main/
+Nebula_backup.zip
